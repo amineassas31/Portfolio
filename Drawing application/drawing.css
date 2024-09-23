@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #961919;
+    color: white;
+    text-align: center;
+}
+
+
+input {
+    background-color: white;
+    color: #333;
+    display: block;
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px auto;
+    border: 2px solid #961919;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+
+label {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+button {
+    background-color: white;
+    color: #961919;
+    border: 2px solid #961919;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #470404;
+    color: white;
+}
+
+
+#err {
+    color: #ffcccc;
+    margin-top: 10px;
+}
+
+#nstudents {
+
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 30%;
+    margin: 0 auto;
+    color: #333;
+    text-align: left;
+}
+
+ul li {
+    background-color: white;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #961919;
+    width: 40%
+
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #ffcc00;
+    margin-top: 20px;
+    font-weight: bolder;
+}
