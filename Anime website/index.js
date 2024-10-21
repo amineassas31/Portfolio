@@ -50,7 +50,7 @@ async function anime(searchValue) {
 //-------------------------------------------------------------------
 async function characters(searchValue) {
     const response = await fetch(
-        `https://cors-anywhere.herokuapp.com/https://api.jikan.moe/v4/characters?q=` +
+        `https://api.jikan.moe/v4/characters?q=` +
             searchValue
     );
     const data = await response.json();
@@ -75,7 +75,7 @@ async function characters(searchValue) {
 //-------------------------------------------------------------------
 async function clubs(searchValue) {
     const response = await fetch(
-        `https://cors-anywhere.herokuapp.com/https://api.jikan.moe/v4/clubs?q=` +
+        `https://api.jikan.moe/v4/clubs?q=` +
             searchValue
     );
     const data = await response.json();
@@ -108,7 +108,7 @@ async function clubs(searchValue) {
 //-------------------------------------------------------------------
 async function manga(searchValue) {
     const response = await fetch(
-        `https://cors-anywhere.herokuapp.com/https://api.jikan.moe/v4/manga?q=` +
+        `https://api.jikan.moe/v4/manga?q=` +
             searchValue
     );
     const data = await response.json();
@@ -147,7 +147,7 @@ async function manga(searchValue) {
 //-------------------------------------------------------------------
 async function people(searchValue) {
     const response = await fetch(
-        `https://cors-anywhere.herokuapp.com/https://api.jikan.moe/v4/people?q=` +
+        `https://api.jikan.moe/v4/people?q=` +
             searchValue
     );
     const data = await response.json();
